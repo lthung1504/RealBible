@@ -1,0 +1,65 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+MarathonAppAndroid/bin
+MarathonAppAndroid/gen
+libraryacb/bin
+libraryacb/gen
+libraryviewpage/bin
+libraryviewpage/gen
+library/bin
+library/gen
+FlipLibrary/bin
+FlipLibrary/gen
+google-play-services_lib/bin
+google-play-services_lib/gen
+.metadata
+_library_ActionBarSherlock_v4.3.1/gen
+_library_ActionBarSherlock_v4.3.1/bin
+_library_HoloEverywhere_v1.5.0/gen
+_library_HoloEverywhere_v1.5.0/bin
+librarysliddingmenu/gen
+librarysliddingmenu/bin
+FacebookSDK/bin
+FacebookSDK/gen
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# generated files
+bin/
+gen/
+
+# remove crashlytics auto gen file
+MarathonAppAndroid/res/values/com_crashlytics_export_strings.xml
+MarathonAppAndroid/crashlytics.properties
+MarathonAppAndroid/assets/crashlytics-build.properties
